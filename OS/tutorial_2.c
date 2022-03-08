@@ -31,7 +31,7 @@ void wait_tutorial_2() {
 
     if(pid_1 != 0) {
         if(pid_2 != 0) {
-            // he main process waits until all child done first then print
+            // the main process waits until all child done first then print
             wait(NULL);
             printf("print from main\n");
         } else {
